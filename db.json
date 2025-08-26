@@ -1,0 +1,57 @@
+{
+  "evenements": [
+    {
+      "id": "5amy",
+      "nom": "sylla",
+      "date": "2025-03-26",
+      "lieu": "dakar",
+      "description": "fete",
+      "organisateur": "amy"
+    },
+    {
+      "id": "5nmjkl",
+      "nom": "sylla",
+      "date": "2025-03-26",
+      "lieu": "malika",
+      "description": "fete",
+      "organisateur": "nmjkl"
+    },
+    {
+      "id": "5ndj",
+      "nom": "sylla",
+      "date": "2025-03-26",
+      "lieu": "dakar",
+      "description": "mfklf",
+      "organisateur": "ndj"
+    }
+  ],
+  "participants": [
+    {
+      "id": "8FALL",
+      "nom": "FALL",
+      "prenom": "Mouhamed",
+      "email": "mouhamed@g.com",
+      "telephone": "776638875",
+      "presence": "Présent",
+      "evenementId": null
+    },
+    {
+      "id": "7DIALLO",
+      "nom": "DIALLO",
+      "prenom": "Mouhamed",
+      "email": "diallo@g.com",
+      "telephone": "776638875",
+      "presence": "Présent",
+      "evenementId": null
+    },
+    {
+      "id": "5amy",
+      "nom": "amy",
+      "prenom": "Ndeye",
+      "email": "nasyllaisidk@groupeisi.com",
+      "telephone": "771674077",
+      "presence": "Présent",
+      "evenementId": null
+    }
+  ]
+}

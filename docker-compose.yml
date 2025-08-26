@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  angular-app:
+    build: .
+    container_name: angular-container
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - angular-net
+
+networks:
+  angular-net:
+    driver: bridge

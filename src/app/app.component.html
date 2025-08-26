@@ -1,1 +1,24 @@
-<app-utilisateur></app-utilisateur>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">Gestion Événements</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link active" routerLink="/Evenement">Liste des événements</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/Participant">Gestion des Participants</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/Statistiques">Statistiques</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
